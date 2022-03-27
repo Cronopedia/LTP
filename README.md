@@ -1,12 +1,12 @@
 # Atividade Prática Avaliativa
 
-### 🗂 Indice 
+## 🗂 Indice 
 
 - 📄 [Projeto de Software](projeto_software.pdf)
 - 🎨 [Modelagem](model.png)
 - 🚀 [Implementação](cronopedia)
 
-### ⭐ Critérios de avaliação 
+## ⭐ Critérios de avaliação 
 
 A atividade será avaliada conforme os seguintes critérios.
 
