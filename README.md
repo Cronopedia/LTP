@@ -1,6 +1,16 @@
-# Atividade Prática Avaliativa - Critérios de avaliação 
+# Atividade Prática Avaliativa
 
-### Projeto de Software (2 pontos)
+### 🗂 Indice 
+
+- 📄 [Projeto de Software](projeto_software.pdf)
+- 🎨 [Modelagem](model.png)
+- 🚀 [Implementação](cronopedia)
+
+### ⭐ Critérios de avaliação 
+
+A atividade será avaliada conforme os seguintes critérios.
+
+#### 📄 Projeto de Software (2 pontos)
 - [ ] nome do software 
 - [ ] integrantes 
 - [ ] descrição 
@@ -9,7 +19,7 @@
 
 > Entrega no Moodle em formato PDF.
 
-### Modelagem (3 pontos)
+#### 🎨 Modelagem (3 pontos)
 - [ ] No mínimo 4 classes. (1 ponto)
 - [ ] No mínimo 1 herança **e** 1 associação. (1 ponto)
 - [ ] No mínimo 4 campos e no máximo: 8. (0.5 ponto)
@@ -17,7 +27,7 @@
 
  >  Entregar no Moodle em formato PNG ou JPG modelado no padrão UML.
 
-### Implementação (5 pontos)
+#### 👩‍💻 Implementação (5 pontos)
 - [ ] Pelo menos um dos campos de qualquer classe deve ser um ArrayList. (1 ponto)
 - [ ] Pelo menos um dos campos de qualquer classe deve ser um HashMap. (1 ponto)
 - [ ] Pelo menos uma classe deve realizar sobrecarga de algum método especificado. (0,5 ponto)
