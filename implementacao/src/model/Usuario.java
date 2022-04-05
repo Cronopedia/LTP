@@ -5,8 +5,8 @@ import java.util.Iterator;
 
 public class Usuario {
 
-    protected String nome;
-    protected int idade;
+    private String nome;
+    private int idade;
     public ArrayList<Pagina> paginas;
 
     public Usuario(String nome, int idade) {
@@ -14,7 +14,7 @@ public class Usuario {
         this.idade = idade;
         paginas = new ArrayList<>();
     }
-
+    
     // Getters e Setters
     public String getNome() {
         return nome;
@@ -74,32 +74,33 @@ public class Usuario {
     // Atualizar Título
     public void atualizarTitulo(int index, String titulo) {
         // Registrando as alterações do titulo no histórico
-        Historico.registrar(index, titulo, titulo, nome, "Atualização no Titulo");
+        Historico.registrar(index, titulo, nome, titulo, "Atualização no Titulo");
 
         paginas.get(index).setTitulo(titulo);
 
     }
 
     // Atualizar Resumo
-    public void atualizarResumo(int index, String value) {
+    public void atualizarResumo(int index, String resumo) {
         // Pegando a página para ver o seu título
-        String titulo = paginas.get(index).titulo;
+        String titulo = paginas.get(index).getTitulo();
 
         // Registrando as alterações do resumo no histórico
-        Historico.registrar(index, titulo, value, nome, "Atualização no Resumo");
+        // registrar(int index, String titulo, String nome, String mudanca, String campo)
+        Historico.registrar(index, titulo, nome, resumo, "Atualização no Resumo");
 
-        paginas.get(index).setResumo(value);
+        paginas.get(index).setResumo(resumo);
     }
 
     // Atualizar Texto
     public void atualizarTexto(int index, String texto) {
         // Pegando a página para ver o seu título
-        String titulo = paginas.get(index).titulo;
-
-        // Registrando as alterações do texto no histórico
-        Historico.registrar(index, titulo, texto, nome, "Atualização no Texto");
+        String titulo = paginas.get(index).getTitulo();
 
         paginas.get(index).setTexto(texto);
+
+        // Registrando as alterações do texto no histórico
+        Historico.registrar(index, titulo, nome, texto, "Atualização no Texto");
     }
 
     // Visualizar uma página
