@@ -9,7 +9,7 @@ public class Moderador extends Usuario {
     }
 
     // bloqueia uma pagina
-    public void bloquearPagina(Usuario usuario, Pagina pagina) {
+    public void bloquearPagina(Pagina pagina) {
         if (pagina.getVisivel()) {
             pagina.setVisivel(false);
         } else {
