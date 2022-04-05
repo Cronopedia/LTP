@@ -8,7 +8,7 @@ Prazo de entrega: 11/04/2022
 
 - 📄 [Projeto de Software](projeto_software.pdf)
 - 🎨 [Modelagem](model.png)
-- 🚀 [Implementação](cronopedia)
+- 🚀 [Implementação](https://github.com/Cronopedia/LTP/tree/main/implementacao)
 
 <br/>
 
