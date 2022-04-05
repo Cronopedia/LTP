@@ -17,11 +17,11 @@ Prazo de entrega: 11/04/2022
 A atividade será avaliada conforme os seguintes critérios.
 
 #### 📄 Projeto de Software (2 pontos)
-- [ ] nome do software 
-- [ ] integrantes 
-- [ ] descrição 
-- [ ] requisitos funcionais 
-- [ ] modelagem
+- [x] nome do software 
+- [x] integrantes 
+- [x] descrição 
+- [x] requisitos funcionais 
+- [x] modelagem
 
 > Entrega no Moodle em formato PDF.
 
