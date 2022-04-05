@@ -21,7 +21,6 @@ A atividade será avaliada conforme os seguintes critérios.
 - [x] integrantes 
 - [x] descrição 
 - [x] requisitos funcionais 
-- [x] modelagem
 
 > Entrega no Moodle em formato PDF.
 
