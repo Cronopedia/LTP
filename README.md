@@ -27,7 +27,7 @@ A atividade será avaliada conforme os seguintes critérios.
 #### 🎨 Modelagem (3 pontos)
 - [x] No mínimo 4 classes. (1 ponto)
 - [x] No mínimo 1 herança **e** 1 associação. (1 ponto)
-- [ ] No mínimo 4 campos e no máximo: 8. (0.5 ponto)
+- [x] No mínimo 4 campos e no máximo: 8. (0.5 ponto)
 - [x] No minimo mínimo 2 e no máximo 8 método. (0.5 pontos) 
 
  >  Entregar no Moodle em formato PNG ou JPG modelado no padrão UML.
