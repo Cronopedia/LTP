@@ -35,7 +35,7 @@ A atividade será avaliada conforme os seguintes critérios.
 #### 👩‍💻 Implementação (5 pontos)
 - [x] Pelo menos um dos campos de qualquer classe deve ser um ArrayList. (1 ponto)
 - [x] Pelo menos um dos campos de qualquer classe deve ser um HashMap. (1 ponto)
-- [ ] Pelo menos uma classe deve realizar sobrecarga de algum método especificado. (0,5 ponto)
+- [x] Pelo menos uma classe deve realizar sobrecarga de algum método especificado. (0,5 ponto)
 - [x] A herança deve ser implementada adequadamente com base no modelo desenvolvido. (0,5 ponto)
 - [x] Pelo menos dois pacotes devem ser criados para organizar as classes. (0,5 ponto)
 - [x] Em uma classe Main, implemente pelo menos dois requisitos funcionais. (1,5 ponto).
