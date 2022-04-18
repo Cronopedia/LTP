@@ -1,6 +1,9 @@
 # Atividade Prática Avaliativa
 
-Prazo de entrega: 11/04/2022
+~~Prazo de entrega: 11/04/2022~~ 
+
+Prazo de entrega: 19/04/2022
+
 
 <br/>
 
