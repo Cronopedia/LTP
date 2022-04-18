@@ -6,7 +6,7 @@ Prazo de entrega: 11/04/2022
 
 ## 🗂 Indice 
 
-- 📄 [Projeto de Software](projeto_software.pdf)
+- 📄 [Projeto de Software](Projeto%20Software.pdf)
 - 🎨 [Modelagem](Modelagem%20LTP.png)
 - 🚀 [Implementação](implementacao)
 
@@ -17,10 +17,10 @@ Prazo de entrega: 11/04/2022
 A atividade será avaliada conforme os seguintes critérios.
 
 #### 📄 Projeto de Software (2 pontos)
-- [ ] nome do software 
-- [ ] integrantes 
-- [ ] descrição 
-- [ ] requisitos funcionais 
+- [x] nome do software 
+- [x] integrantes 
+- [x] descrição 
+- [x] requisitos funcionais 
 
 > Entrega no Moodle em formato PDF.
 
