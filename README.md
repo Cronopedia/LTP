@@ -6,7 +6,7 @@ Prazo de entrega: 11/04/2022
 
 ## 🗂 Indice 
 
-- 📄 [Projeto de Software](Projeto%20de%20Software.pdf)
+- 📄 [Projeto de Software](Projeto%20de%20Software.pdf) ou [Google Docs](https://docs.google.com/document/u/0/d/1g6juzUmrt9HfU6Bc951OFIICp_qV-TSBDCqLWyaEBlk/mobilebasic)
 - 🎨 [Modelagem](Modelagem%20LTP.png)
 - 🚀 [Implementação](implementacao)
 
