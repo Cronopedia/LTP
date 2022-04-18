@@ -25,23 +25,24 @@ public class Main {
         novoUsuario.atualizarTexto(0, "O surgimento do império romano se deu em...");
 
         // Visualizar histórico
-        System.out.println("Visualizando o histórico: ");
+        System.out.println("\nVisualizando o histórico para checar a mudança: ");
         novoUsuario.getPagina(0).acessarHistorico();
 
         // Remover página
-        System.out.println("Removendo a página " + novoUsuario.getPagina(0).getTitulo());
+        System.out.println("\nRemovendo a página " + novoUsuario.getPagina(0).getTitulo());
         novoUsuario.removerPagina(0);
 
-        // Listando as páginas do usuário
+        System.out.println("Visualizando a mudança: ");
         novoUsuario.listarPaginas();
 
         // Criando um moderador
-        System.out.println("Ocultando a página " + novoUsuario.getPagina(0).getTitulo());
-        // Moderador
         Moderador moderador = new Moderador("Moderador", 30);
+        System.out.println("Ocultando a página " + novoUsuario.getPagina(0).getTitulo());
+        
+        // Moderador
         moderador.bloquearPagina(novoUsuario, novoUsuario.getPagina(0));
 
-        // Listando as páginas do usuário
+        System.out.println("Visualizando a mudança: ");
         novoUsuario.listarPaginas();
 
     }
