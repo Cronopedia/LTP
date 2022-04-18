@@ -6,9 +6,9 @@ Prazo de entrega: 11/04/2022
 
 ## 🗂 Indice 
 
-- 📄 [Projeto de Software](projeto_software.pdf)
-- 🎨 [Modelagem](model.png)
-- 🚀 [Implementação](cronopedia)
+- 📄 [Projeto de Software](Projeto%20Software.pdf)
+- 🎨 [Modelagem](Modelagem%20LTP.png)
+- 🚀 [Implementação](implementacao)
 
 <br/>
 
@@ -17,19 +17,18 @@ Prazo de entrega: 11/04/2022
 A atividade será avaliada conforme os seguintes critérios.
 
 #### 📄 Projeto de Software (2 pontos)
-- [ ] nome do software 
-- [ ] integrantes 
-- [ ] descrição 
-- [ ] requisitos funcionais 
-- [ ] modelagem
+- [x] nome do software 
+- [x] integrantes 
+- [x] descrição 
+- [x] requisitos funcionais 
 
 > Entrega no Moodle em formato PDF.
 
 #### 🎨 Modelagem (3 pontos)
-- [ ] No mínimo 4 classes. (1 ponto)
-- [ ] No mínimo 1 herança **e** 1 associação. (1 ponto)
-- [ ] No mínimo 4 campos e no máximo: 8. (0.5 ponto)
-- [ ] No minimo mínimo 2 e no máximo 8 método. (0.5 pontos) 
+- [x] No mínimo 4 classes. (1 ponto)
+- [x] No mínimo 1 herança **e** 1 associação. (1 ponto)
+- [x] No mínimo 4 campos e no máximo: 8. (0.5 ponto)
+- [x] No minimo mínimo 2 e no máximo 8 método. (0.5 pontos) 
 
  >  Entregar no Moodle em formato PNG ou JPG modelado no padrão UML.
 

@@ -7,9 +7,9 @@ import java.util.Map.Entry;
 
 public class Pagina {
 
-    protected String titulo, texto, resumo, nome;
+    private String titulo, texto, resumo, nome;
     static HashMap<Date, Historico> historico;
-    protected boolean visivel;
+    private boolean visivel;
 
     public Pagina(String titulo, String texto, String resumo, String nome) {
         this.titulo = titulo;

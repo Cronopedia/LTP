@@ -5,8 +5,8 @@ import java.util.HashMap;
 
 public class Historico {
 
-    protected int index;
-    protected String titulo, nome, mudanca, campo;
+    private int index;
+    private String titulo, nome, mudanca, campo;
 
     public Historico() {
 
@@ -20,7 +20,7 @@ public class Historico {
         this.campo = campo;
     }
 
-    // Getters
+    // Getters e Setters
     public int getIndex() {
         return index;
     }
@@ -41,7 +41,6 @@ public class Historico {
         return campo;
     }
 
-    // Setters
     public void setIndex(int index) {
         this.index = index;
     }
@@ -71,10 +70,13 @@ public class Historico {
 
     // Criando metodo para registrar as mudanca no historico
     public static void registrar(int index, String titulo, String nome, String mudanca, String campo) {
+        
         // Instanciando o hashMap para registrar as mudanca
         Pagina.historico = new HashMap<>();
+
         // Criando um objeto do tipo Historico
         Historico obj = new Historico(index, titulo, nome, mudanca, campo);
+
         // Adicionando o objeto no hashMap
         Pagina.historico.put(new Date(System.currentTimeMillis()), obj);
 
