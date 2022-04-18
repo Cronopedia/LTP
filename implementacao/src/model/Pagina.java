@@ -70,7 +70,7 @@ public class Pagina {
             Iterator<Entry<Date, Historico>> it = historico.entrySet().iterator();
             while (it.hasNext()) {
                 Entry<Date, Historico> pair = it.next();
-                System.out.println(pair.getValue());
+                System.out.println(pair.getValue() + " - Data da mudança: "+ pair.getKey());
             }
         }
     }
