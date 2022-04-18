@@ -40,7 +40,7 @@ public class Main {
         System.out.println("Ocultando a página " + novoUsuario.getPagina(0).getTitulo());
         
         // Moderador
-        moderador.bloquearPagina(novoUsuario, novoUsuario.getPagina(0));
+        moderador.bloquearPagina(novoUsuario.getPagina(0));
 
         System.out.println("Visualizando a mudança: ");
         novoUsuario.listarPaginas();
