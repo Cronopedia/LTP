@@ -6,7 +6,7 @@ Prazo de entrega: 11/04/2022
 
 ## 🗂 Indice 
 
-- 📄 [Projeto de Software](Projeto%20Software.pdf)
+- 📄 [Projeto de Software](Projeto%20de%20Software.pdf)
 - 🎨 [Modelagem](Modelagem%20LTP.png)
 - 🚀 [Implementação](implementacao)
 
